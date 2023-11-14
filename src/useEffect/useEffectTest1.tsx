@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useEffectTest1 = () => {
+const UseEffectTest1 = () => {
   const [state, setState] = useState(0);
 
   const plusOne = () => setState((prev) => prev + 1);
@@ -17,4 +17,4 @@ const useEffectTest1 = () => {
   );
 };
 
-export default useEffectTest1;
+export default UseEffectTest1;

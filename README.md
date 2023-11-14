@@ -6,8 +6,20 @@
 `node` : 4.4.5
 
 ## 개발일기
+> #### 2023.11.14
+> - 파일위치 : useState/useStateTest1.tsx
+> - `test 목적` : useState 를 가진 컴포넌트에 state 값이 변경되었을 때의 컴포넌트 랜더링 순서 확인
+> - `코드 설명` : 
+>   1. 마운팅 테스트 목적만의 A 컴포넌트 구현
+>   2. UseStateTest1 컴포넌트에 useState 로 선언 후 버튼을 클릭했을 때 state 가 변경, 그리고 A 컴포넌트 호출
+> - `test 목표` :
+>   1. 처음 랜더링 되었을 때 console.log 어떤 결과를 가질까?
+>   2. 버튼을 클릭할 때 마다 console.log 는 어떻게 출력될까?
+> - `test 결과` :
+>   1. 처음 랜더링 시 console.log 는 "render App render App render A render A"
+
 > #### 2023.11.12
-> - 파일위치 : useEffect/useEffectTest1.tsx 
+> - 파일위치 : useEffect/UseEffectTest1.tsx 
 > - `test 목적` : useState 상태값을 useEffect 의 dependency Array 로 대입 시 랜더링 테스트
 > - `코드 설명` :
 >   1. 버튼 클릭했을 때 useState 의 state 값을 1씩 추가
