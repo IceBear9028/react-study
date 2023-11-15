@@ -6,6 +6,15 @@
 `node` : 4.4.5
 
 ## 개발일기
+> #### 2023.11.15
+> - 파일위치 : render/renderingTest1
+> - `test 목적` : Rendering 순서 공부 복습
+> - `코드 설명` :
+>   1. renderingTest1 에 A, D 컴포넌트 마운팅  
+>   2. A 컴포넌트 안에는 B 컴포넌트, B 컴포넌트 안에는 C 컴포넌트 마운팅 [A -> B -> C]
+>   3. D 컴포넌트는 독립적으로 A 에 마운팅
+
+
 > #### 2023.11.14
 > - 파일위치 : useState/useStateTest1.tsx
 > - `test 목적` : useState 를 가진 컴포넌트에 state 값이 변경되었을 때의 컴포넌트 랜더링 순서 확인
