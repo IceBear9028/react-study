@@ -1,5 +1,6 @@
 import "./App.css";
 import RenderingTest1 from './render/renderingTest1.tsx';
+import CountController from "./component/CountController.tsx";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
           <RenderingTest1/>
+          <CountController/>
       </div>
     </>
   );
